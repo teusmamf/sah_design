@@ -10,24 +10,20 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-semibold text-primary mb-4">Steticts</h3>
             <p className="text-gray-600 mb-4">
-              Your sanctuary for beauty and wellness. We're committed to enhancing your natural beauty
-              through expert care and premium treatments.
+            O seu santuário de beleza e bem-estar. Estamos empenhados em realçar a sua beleza natural
+            através de cuidados especializados e tratamentos de excelência.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            
+              <a href="https://www.instagram.com/sah_studio_design?igsh=OWxjc29ndDl3NDlu" className="text-gray-400 hover:text-primary transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">
-                <Twitter size={20} />
-              </a>
+              
             </div>
           </div>
 
           <div>
-            <h4 className="font-semibold text-gray-900 mb-4">Quick Links</h4>
+            <h4 className="font-semibold text-gray-900 mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-600 hover:text-primary transition-colors">
@@ -36,13 +32,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/services" className="text-gray-600 hover:text-primary transition-colors">
-                  Services
+                  Serviços
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-600 hover:text-primary transition-colors">
-                  Contact
-                </Link>
               </li>
             </ul>
           </div>
@@ -50,17 +43,15 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-gray-900 mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-600">
-              <li>123 Beauty Lane</li>
-              <li>New York, NY 10001</li>
-              <li>Phone: (555) 123-4567</li>
-              <li>Email: info@steticts.com</li>
+              <li>Rua Paraná 4050</li>
+              <li>Sala 10</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-200">
           <p className="text-center text-gray-500">
-            © {new Date().getFullYear()} Steticts. All rights reserved.
+            © {new Date().getFullYear()} Sah studio design. direitos reservados.
           </p>
         </div>
       </div>

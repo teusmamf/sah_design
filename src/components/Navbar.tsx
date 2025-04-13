@@ -1,6 +1,9 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import ContactBtn from './Contactbtn';
+import logonav from '../assets/logosahnav.png';
+import '../index.css';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -10,8 +13,7 @@ export default function Navbar() {
 
   const navLinks = [
     { path: '/', label: 'Home' },
-    { path: '/services', label: 'Services' },
-    { path: '/contact', label: 'Contact' },
+    { path: '/services', label: 'Serviços' },
   ];
 
   return (
@@ -19,8 +21,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
+
             <Link to="/" className="text-2xl font-semibold text-primary">
-              Steticts
+            <img src={logonav} alt="logonav" 
+            className='logo_navbar'/>
             </Link>
           </div>
 
@@ -39,9 +43,8 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <button className="bg-primary text-white px-6 py-2 rounded-full hover:bg-primary/90 transition-colors duration-200">
-              Book Now
-            </button>
+            <ContactBtn/>
+            
           </div>
 
           {/* Mobile Navigation Button */}
@@ -74,7 +77,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <button className="w-full bg-primary text-white px-6 py-2 rounded-full hover:bg-primary/90 transition-colors duration-200">
-                Book Now
+                Marcar agora!
               </button>
             </div>
           </div>

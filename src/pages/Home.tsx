@@ -5,22 +5,22 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   const services = [
     {
-      title: 'Derma Peeling',
-      description: 'Revitalize your skin with our gentle yet effective exfoliation.',
+      title: 'DermaPlaining',
+      description: 'Revitalize a sua pele com a nossa esfoliação suave mas eficaz. O nosso tratamento derma peeling remove as células mortas da pele, desobstrui os poros e estimula a renovação celular para uma tez mais suave e radiante.',
       icon: Sparkles,
-      image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=500',
+      image: 'https://julianafonte.com.br/wp-content/uploads/2018/02/remocao-de-sinais.jpg',
     },
     {
-      title: 'Skin Cleaning',
-      description: 'Deep cleansing treatments that leave your skin glowing.',
+      title: 'Limpeza de pele',
+      description: 'Tratamentos de limpeza profunda que deixam a sua pele resplandecente.O nosso tratamento facial completo inclui uma limpeza profunda dos poros, extração e uma máscara personalizada para resolver os problemas específicos da sua pele.',
       icon: Heart,
-      image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=500',
+      image: 'https://studiolevita.com.br/wp-content/uploads/2019/09/studiolevita_limpezadepele.jpg',
     },
     {
-      title: 'Eyebrows Styling',
-      description: 'Precision shaping to enhance your natural beauty.',
+      title: 'Estilização de sobrancelhas',
+      description: 'Modelação de precisão para realçar a sua beleza natural.As nossas esteticistas especializadas analisam o formato do seu rosto e criam o arco de sobrancelha perfeito para enquadrar as suas caraterísticas.',
       icon: Smile,
-      image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=500',
+      image: 'https://patricinhaesperta.com.br/wp-content/uploads/2016/05/iStock_000086489155_Small.jpg',
     },
   ];
 
@@ -30,7 +30,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1607779097040-26e80aa4576f?auto=format&fit=crop&q=80"
+            src="https://cdn.pixabay.com/photo/2024/03/01/15/29/beauty-8606769_1280.png"
             alt="Salon Interior"
             className="w-full h-full object-cover"
           />
@@ -39,16 +39,16 @@ export default function Home() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
-            Experience Radiant Beauty
+          Onde sua beleza encontra seu brilho.
           </h1>
           <p className="text-xl text-white/90 mb-8 animate-slide-up">
-            Your sanctuary for beauty and wellness in the heart of the city
+          Beleza personalizada, no centro da sua rotina.
           </p>
           <Link
             to="/services"
             className="inline-flex items-center bg-primary text-white px-8 py-3 rounded-full hover:bg-primary/90 transition-all transform hover:scale-105"
           >
-            Explore Our Services
+            Explore nossos serviços
             <ArrowRight className="ml-2" size={20} />
           </Link>
         </div>
@@ -59,12 +59,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Welcome to Steticts
+              Bem vindo(a) à SahEstudio Design
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              At Steticts, we believe in enhancing your natural beauty through expert care
-              and premium treatments. Our commitment to excellence ensures you receive
-              the highest quality service in a serene and luxurious environment.
+            No SahEstudio Design, acreditamos em realçar a sua beleza natural através de cuidados especializados
+              e tratamentos de alta qualidade. O nosso compromisso com a excelência garante-lhe
+              a melhor qualidade de serviço num ambiente sereno e luxuoso.
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function Home() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
-            Our Featured Treatments
+            Nossos Tratamentos
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -102,7 +102,7 @@ export default function Home() {
                     to="/services"
                     className="text-primary font-medium hover:text-primary/80 inline-flex items-center"
                   >
-                    Learn More
+                   Saiba Mais
                     <ArrowRight className="ml-2" size={16} />
                   </Link>
                 </div>
@@ -116,13 +116,13 @@ export default function Home() {
       <section className="py-20 bg-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-8">
-            Ready to Transform Your Beauty Journey?
+            Pronta para transformar sua jornada de beleza?
           </h2>
           <Link
             to="/contact"
             className="inline-flex items-center bg-white text-primary px-8 py-3 rounded-full hover:bg-gray-100 transition-all transform hover:scale-105"
           >
-            Book Your Appointment
+            Marcar agora !
             <ArrowRight className="ml-2" size={20} />
           </Link>
         </div>

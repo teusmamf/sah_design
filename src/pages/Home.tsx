@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   const services = [
     {
-      title: 'DermaPlaining',
-      description: 'Revitalize a sua pele com a nossa esfoliação suave mas eficaz. O nosso tratamento derma peeling remove as células mortas da pele, desobstrui os poros e estimula a renovação celular para uma tez mais suave e radiante.',
+      title: 'DermaPlaning',
+      description: 'Revitalize a sua pele com a nossa esfoliação suave mas eficaz. O nosso tratamento dermaPlaning remove as células mortas da pele, desobstrui os poros e estimula a renovação celular para uma pele mais suave e radiante.',
       icon: Sparkles,
       image: 'https://julianafonte.com.br/wp-content/uploads/2018/02/remocao-de-sinais.jpg',
     },
@@ -59,10 +59,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Bem vindo(a) à SahEstudio Design
+              Bem vindo(a) à Sah Studio Design
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            No SahEstudio Design, acreditamos em realçar a sua beleza natural através de cuidados especializados
+            No Sah Studio Design, acreditamos em realçar a sua beleza natural através de cuidados especializados
               e tratamentos de alta qualidade. O nosso compromisso com a excelência garante-lhe
               a melhor qualidade de serviço num ambiente sereno e luxuoso.
             </p>
@@ -119,7 +119,7 @@ export default function Home() {
             Pronta para transformar sua jornada de beleza?
           </h2>
           <Link
-            to="/contact"
+            to="/services"
             className="inline-flex items-center bg-white text-primary px-8 py-3 rounded-full hover:bg-gray-100 transition-all transform hover:scale-105"
           >
             Marcar agora !

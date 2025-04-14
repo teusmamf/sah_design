@@ -26,7 +26,7 @@ export default function Services() {
       image: 'https://patricinhaesperta.com.br/wp-content/uploads/2016/05/iStock_000086489155_Small.jpg',
     },
     {
-      title: 'Micro pigmentação',
+      title: 'Micropigmentação',
       description: 'A micropigmentação é uma técnica segura e precisa que redefine o desenho das sobrancelhas, lábios ou olhos, proporcionando harmonia, simetria e destaque ao seu rosto. Ideal para quem busca praticidade no dia a dia e um visual sempre impecável.',
       price: 'á partir de \n R$580,00 sobrancelhas \n R$600,00 boca \n R$350,00 olhos',
       duration: '1:30h',

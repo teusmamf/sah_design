@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
 
-            <Link to="/" className="text-2xl font-semibold text-primary">
+            <Link to="/" className="text-2xl font-semibold text-primary ">
             <img src={logonav} alt="logonav" 
             className='logo_navbar'/>
             </Link>

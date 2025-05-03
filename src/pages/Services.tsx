@@ -86,7 +86,7 @@ export default function Services() {
       description: 'Método eficaz que elimina os pelos desde a raiz, proporcionando pele lisa por mais tempo. Aplicação profissional para um resultado preciso e com menos desconforto.',
       price: 'á partir de R$70,00',
       duration: 'á partir de 45 min',
-      image: 'https://informebrasil.com.br/wp-content/uploads/2022/10/cera-caseira-para-depilacao.jpg',
+      image: 'https://cursos.escolaeducacao.com.br/assets/uploads/2021/03/depilacao-com-cera.jpg',
     },
   ];
 

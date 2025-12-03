@@ -72,14 +72,14 @@ export default function Services() {
       description: 'Tratamento intensivo que combina hidratação profunda com brilho imediato, deixando os lábios macios, volumosos e com um efeito glossy natural. Ideal para quem busca um visual saudável e irresistível.',
       price: 'á partir de R$90,00',
       duration: 'á partir de 45 min',
-      image: 'https://dayfisioterapia.com.br/wp-content/uploads/2022/03/hydraa-1024x683.jpg',
+      image: 'https://www.fisioderme.com.br/wp-content/uploads/2024/06/Hydra-Gloss-Lips-Home-Blog-min-scaled-1-1200x565.jpeg',
     },
     {
       title: 'Depilação egípcia',
       description: 'Técnica milenar que remove os pelos desde a raiz utilizando apenas um fio especial, sem agredir a pele. Ideal para áreas sensíveis (como rosto e virilha), evita irritações e pelos encravados, com resultados que duram até 30 dias. Precisão e suavidade em um único método!',
       price: 'á partir de R$70,00',
       duration: 'á partir de 45 min',
-      image: 'https://big1news.com.br/wp-content/uploads/2015/09/Bu%C3%A7o-egipcia.jpg',
+      image: 'https://escolaplenitudeoficial.com.br/wp-content/uploads/2021/03/Depilacao-com-Linha.jpg',
     },
     {
       title: 'Depilação cera',
